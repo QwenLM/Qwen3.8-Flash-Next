@@ -93,7 +93,7 @@ Look for models ending with GGUF on Hugging Face Hub.
 #### Unsloth
 
 [Unsloth](https://unsloth.ai) contains a local UI to run and train LLMs and diffusion models, including Qwen3.8-Flash-Next and more.
-See [the Qwen3.8-Flash-Next guide](https://unsloth.ai/docs/models/qwen3.8-flash-next) for running Qwen3.8-Flash-Next quants with Unsloth.
+See [the Qwen3.8-Flash-Next guide](https://unsloth.ai/docs/models/qwen3.8-next) for running Qwen3.8-Flash-Next quants with Unsloth.
 
 ### Deployment
 
