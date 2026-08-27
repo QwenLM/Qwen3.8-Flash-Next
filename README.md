@@ -90,6 +90,12 @@ See [the Serve CLI guide](https://huggingface.co/docs/transformers/serve-cli/ser
 llama.cpp supports the Qwen3.8-Flash-Next (text & vision).
 Look for models ending with GGUF on Hugging Face Hub.
 
+#### MLX (Apple Silicon)
+
+If you are running on Apple Silicon, [`mlx-vlm`](https://github.com/Blaizzy/mlx-vlm) supports Qwen3.8-Flash-Next (vision + text). 
+Original checkpoints are compatible and can be converted. 
+You can also search for models ending with MLX on the Hugging Face Hub for ready-to-use quantized versions.
+
 #### Unsloth
 
 [Unsloth](https://unsloth.ai) contains a local UI to run and train LLMs and diffusion models, including Qwen3.8-Flash-Next and more.
