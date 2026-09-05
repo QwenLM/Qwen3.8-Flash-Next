@@ -90,6 +90,10 @@ See [the Serve CLI guide](https://huggingface.co/docs/transformers/serve-cli/ser
 llama.cpp supports the Qwen3.8-Flash-Next (text & vision).
 Look for models ending with GGUF on Hugging Face Hub.
 
+#### qwen3.8-flash-next-in-c (Laptop CPU)
+
+[`qwen3.8-flash-next-in-c`](https://github.com/shyringo/qwen3.8-flash-next-in-c) is a purpose-built native C runtime for CPU-only text inference. It runs Qwen3.8-Flash-Next on a single laptop CPU without a GPU, Python, PyTorch, model conversion, or an external inference runtime, and provides terminal chat plus an OpenAI-compatible local API. On the reference i5-1340P laptop, exact batch-4 verification reached 9.89 token positions/s and resident single-conversation chat reached 5.03 token/s.
+
 #### MLX (Apple Silicon)
 
 If you are running on Apple Silicon, [`mlx-vlm`](https://github.com/Blaizzy/mlx-vlm) supports Qwen3.8-Flash-Next (vision + text). 
