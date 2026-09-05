@@ -92,7 +92,7 @@ Look for models ending with GGUF on Hugging Face Hub.
 
 #### qwen3.8-flash-next-in-c (Laptop CPU)
 
-[`qwen3.8-flash-next-in-c`](https://github.com/shyringo/qwen3.8-flash-next-in-c) is a purpose-built native C runtime for CPU-only text inference. It runs Qwen3.8-Flash-Next on a single laptop CPU without a GPU, Python, PyTorch, model conversion, or an external inference runtime, and provides terminal chat plus an OpenAI-compatible local API. Its practical minimum is 12 GB RAM. On the reference i5-1340P laptop, exact batch-4 verification reached 9.89 token positions/s and resident single-conversation chat reached 5.03 token/s.
+[`qwen3.8-flash-next-in-c`](https://github.com/shyringo/qwen3.8-flash-next-in-c) is a purpose-built native C runtime for CPU-only text inference. It runs Qwen3.8-Flash-Next on a single laptop CPU without a GPU, Python, PyTorch, model conversion, or an external inference runtime, and provides terminal chat plus an OpenAI-compatible local API. Its automatic low-memory path supports 8 GB RAM; 12 GB or more uses the faster default path. On the reference i5-1340P laptop, exact batch-4 verification reached 9.89 token positions/s and resident single-conversation chat reached 5.03 token/s.
 
 #### MLX (Apple Silicon)
 
