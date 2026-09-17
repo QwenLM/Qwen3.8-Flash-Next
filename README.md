@@ -96,6 +96,12 @@ If you are running on Apple Silicon, [`mlx-vlm`](https://github.com/Blaizzy/mlx-
 Original checkpoints are compatible and can be converted. 
 You can also search for models ending with MLX on the Hugging Face Hub for ready-to-use quantized versions.
 
+#### MTPLX (Apple Silicon)
+
+[MTPLX](https://github.com/youssofal/MTPLX) runs Qwen3.8-Flash-Next on Apple Silicon with the model's own multi-token prediction heads, verified so the output distribution matches plain decoding at any temperature. It decodes at up to 125 tokens per second on an M5 Max, with the 262K context window and image input ([benchmarks with logs](https://mtplx.com/benchmarks/)).
+Install with `brew install youssofal/mtplx/mtplx` or the Mac app from [mtplx.com](https://mtplx.com), then run `mtplx start`. The server is OpenAI and Anthropic compatible.
+Ready-made pack: [Qwen3.8-Flash-Next-MTPLX-Optimized-Speed](https://huggingface.co/Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed).
+
 #### Unsloth
 
 [Unsloth](https://unsloth.ai) contains a local UI to run and train LLMs and diffusion models, including Qwen3.8-Flash-Next and more.
